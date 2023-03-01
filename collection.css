@@ -1,0 +1,80 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #624e4e;
+	color: #fff;
+	padding: 20px;
+}
+
+h1 {
+	font-size: 2em;
+	margin: 0;
+}
+
+form {
+	display: flex;
+	margin-top: 20px;
+}
+
+input[type="text"] {
+	flex: 1;
+	padding: 10px;
+	font-size: 1.2em;
+	border: none;
+	border-radius: 4px 0 0 4px;
+}
+
+button[type="submit"] {
+	padding: 10px 20px;
+	font-size: 1.2em;
+	border: none;
+	background-color: #4CAF50;
+	color: #fff;
+	border-radius: 0 4px 4px 0;
+	cursor: pointer;
+}
+
+main {
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.book-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.book {
+	background-color: #9E9E9E;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+	margin: 20px;
+	padding: 20px;
+	width: 300px;
+	text-align: center;
+}
+
+.book img {
+	width: 150px;
+	height: 200px;
+	margin-bottom: 10px;
+}
+
+.book h2 {
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+
+.book p {
+	font-size: 1.2em;
+	margin-bottom: 5px;
+}
