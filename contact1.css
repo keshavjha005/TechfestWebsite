@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8aa6a3;
+    color: #333;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  header {
+    background-image: url("contactus.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: sticky;
+    background-size: cover;
+    color: #fff;
+    padding: 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: -16px; */
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  nav .active a {
+    text-decoration: underline;
+  }
+  
+  main {
+    max-width: 500px;
+    margin: 2em auto;
+    padding: 0 1em;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    float: left;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+  
+  input,
+  textarea {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+  }
+  
+  button[type="submit"] {
+    background-color: #5e5e5e;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: black;
+  }
+  
+  nav {
+    background-color: #5e3205;
+  }
+  nav ul {
+    position: relative;
+    padding: 20px;
+    margin: 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul Li h1 {
+    color: #fff;
+  }
+  
+  nav ul Li a {
+    float: right;
+  }
+  
+  .foot{
+    size: 20px;
+    background-color: #5e5e5e;
+    height: 40px;
+    text-align: center;
+    padding: 3px;
+    color: black;
+  }
